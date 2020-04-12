@@ -8,6 +8,8 @@ Tis script is meant to be use on servers, you can still use it on a client host
 Python3 must be installed in order to run the program
 
 
+In order to launch the script type "python3 script-name"
+
 The first version is able to configure Netplan :
 changing the ip of a interface, changing DNS
 
