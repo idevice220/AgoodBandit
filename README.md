@@ -19,4 +19,4 @@ with the range of IP you want, on the network you want
 Install a solution of File Sharing :
 NFS for linux or Samba for both linux and Windows
 
-V0.1.0
+V0.1.1
