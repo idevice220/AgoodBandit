@@ -22,7 +22,7 @@ while i == 0:
 
         mon_fichierlog.write("Saisit de l'utilisateur\n") #log
 
-        choix_acueil = input() #on récupère la valeur pour savoir dans quel menu on va rentrer
+        choix_acueil = input()
         try: #on fait un test pour être sûr que la valeur rentré soit correct
                 choix_acueil = int(choix_acueil)
         except ValueError:
