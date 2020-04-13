@@ -3,7 +3,7 @@ This Script has been code in python, it allows you to install and configure soft
 It will make you save some times to make services installed and configured.
 
 Some Pre requirered :
-This script is made for debian environnement
+This script is made for debian environnement, (Rajouter les différents systèmes d"explotations)
 Tis script is meant to be use on servers, you can still use it on a client host
 Python3 must be installed in order to run the program
 
@@ -19,4 +19,9 @@ with the range of IP you want, on the network you want
 Install a solution of File Sharing :
 NFS for linux or Samba for both linux and Windows
 
+log file located in /var/log/Scriptlog.log
+
 V0.1.1
+
+RAjouter une Image
+Rajouter une image pour représenter l'utiliation du DHCP
