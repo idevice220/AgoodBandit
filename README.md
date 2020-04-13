@@ -26,3 +26,5 @@ V0.1.1
 RAjouter une Image
 
 ![IMAGE DHCP](https://image.noelshack.com/fichiers/2020/16/1/1586806765-dhcp-github.png)
+
+![IMAGE ACUEIL](https://image.noelshack.com/fichiers/2020/16/1/1586807158-acueil.png)
