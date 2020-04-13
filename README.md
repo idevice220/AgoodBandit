@@ -24,4 +24,6 @@ log file located in /var/log/Scriptlog.log
 V0.1.1
 
 RAjouter une Image
-Rajouter une image pour représenter l'utiliation du DHCP
+
+![IMAGE DHCP](https://idevice220.s3.eu-west-3.amazonaws.com/DHCP_GITHUB.PNG)
+
