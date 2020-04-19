@@ -1,0 +1,40 @@
+# Serveur TCP/443
+mode server
+proto tcp
+port 443
+dev tun
+# 
+# Clés et certificats
+ca /etc/openvpn/server/ca.crt
+cert /etc/openvpn/server/server.crt
+key /etc/openvpn/server/server.key
+dh /etc/openvpn/server/dh2048.pem
+tls-auth /etc/openvpn/server/ta.key 0
+cipher AES-256-CBC
+# 
+# Réseau
+server 192.198.1.0 255.255.255.0 # Réseau interne
+push "redirect-gateway def1 bypass-dhcp"
+push "dhcp-option DNS 8.8.8.8"
+push "dhcp-option DNS 8.8.4.4"
+keepalive 10 120
+# 
+# Sécurite
+user nobody
+group nogroup
+chroot /srv/openvpn
+persist-key
+persist-tun
+compress lz4
+# 
+# Log
+verb 3
+mute 20
+status /var/log/openvpn-status.log
+log-append /var/log/openvpn.log
+
+# On s'assure que les fichiers de log seront accessibles
+touch /var/log/openvpn-status.log
+touch /var/log/openvpn.log
+chmod 777 /var/log/openvpn-status.log
+chmod 777 /var/log/openvpn.log
