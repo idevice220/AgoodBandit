@@ -10,21 +10,18 @@ Python3 must be installed in order to run the program
 
 In order to launch the script type "python3 script-name"
 
-The first version is able to configure Netplan :
-changing the ip of a interface, changing DNS
+The first version is able to configure Netplan by
+changing the ip of an interface, changing DNS
 
-configure a DHCP server :
-with the range of IP you want, on the network you want
+configure a DHCP server with the range of IP you want, on your network.
 
-Configure your firewall :
-let the packets go outside your interface
+Configure your firewall to let the packets go outside your interface
 
-Install a solution of File Sharing :
-NFS for linux or Samba for both linux and Windows
+Install a solution of File Sharing NFS for linux or Samba for both linux and Windows
 
 log file located in /var/log/logScript.log
 
-V0.1.2
+V.1.0
 
 
 
