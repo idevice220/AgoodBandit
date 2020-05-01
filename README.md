@@ -1,3 +1,7 @@
+#############################################################
+#This project is licensed under the terms of the MIT license#
+#############################################################
+
 # AgoodBandit
 This Script has been code in python, it allows you to install and configure softwares directly with terminal.
 It will make you save some times to make services installed and configured.
