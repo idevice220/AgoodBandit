@@ -1,0 +1,12 @@
+En soulevant un bug :
+
+Vous pouvez faire des rapports de bugs que vous auriez pu rencontrer lors de l'utilisation du programme.
+Pour se faire, vous avez l'onglet "Issues". Essayez de faire un rapport de bug détaillé afin qu'il puisse être
+comprit rapidement.
+
+En proposant un fichier :
+
+Vous pouvez proposer via l'ongent "Pull requests" une mise à jour du programme.
+Pour cela il faut faire une copie du programme original en faisant un "Fork" ( il y'a l'option sur github directement)
+Quelques secondes plus tard, vous serez redirigé vers la page de votre nouveau projet contenant votre copie
+modifiable du code.
